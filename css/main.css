@@ -1,0 +1,5 @@
+@media screen and (max-width: 782px) {
+	.column-vc_video {
+		display: none;
+	}
+}

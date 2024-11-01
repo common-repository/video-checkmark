@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){var t,n,r;t=video_checkmark_backend;e(".vc_checkbox").each(function(){e(this).on("click",function(){current_id=e(this).attr("name");current_value=e(this).attr("checked");e.post(t,{id:current_id,value:current_value})})})});
